@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+<TextView  
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text="IOIO Intruder Alarm"
+    android:textSize="14pt"
+    android:id="@+id/title"
+    />
+<TextView  
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text="After detecting motion, send text to:"
+    />
+<EditText  
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text=""
+    android:id="@+id/sms"
+    />
+<TextView  
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text="Enter the text message to send here:"
+    />
+<EditText  
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text=""
+    android:id="@+id/message"
+    />
+	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    	android:orientation="horizontal"
+    	android:layout_width="wrap_content"
+    	android:layout_height="wrap_content">
+		<ToggleButton 
+	 		android:layout_width="wrap_content" 
+	  		android:layout_height="wrap_content" 
+	  		android:id="@+id/testButton"/>
+	 	<TextView  
+	    	android:layout_width="fill_parent" 
+	    	android:layout_height="wrap_content" 
+	    	android:text="Test Mode (no SMS)"
+	    />
+    </LinearLayout>    
+	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    	android:orientation="horizontal"
+    	android:layout_width="wrap_content"
+    	android:layout_height="wrap_content">
+		<ToggleButton 
+	 		android:layout_width="wrap_content" 
+	  		android:layout_height="wrap_content" 
+	  		android:id="@+id/runButton"/>
+	 	<TextView  
+	    	android:layout_width="fill_parent" 
+	    	android:layout_height="wrap_content" 
+	    	android:text="RUN"
+	    	android:textSize="14pt"
+	    />
+    </LinearLayout>    
+  
+</LinearLayout>
