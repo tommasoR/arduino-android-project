@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+  <Button  
+  	android:id="@+id/spectrumButton"
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text="Spectrum"
+    android:gravity="bottom"
+    />  
+    
+  <Button  
+  	android:id="@+id/test1Button"
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text="Test Pattern 1"
+    android:gravity="bottom"
+    />     
+
+  <Button  
+  	android:id="@+id/test2Button"
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text="Test Pattern 2"
+    android:gravity="bottom"
+    />   
+
+  <Button  
+  	android:id="@+id/test3Button"
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text="Test Pattern IOIO"
+    android:gravity="bottom"
+    />     
+
+  <Button  
+  	android:id="@+id/animationButton"
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text="Animation"
+    android:gravity="bottom"
+    />     
+
+
+
+</LinearLayout>
